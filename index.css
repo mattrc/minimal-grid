@@ -1,0 +1,23 @@
+/* This is required */
+body {
+  margin: 0;
+}
+
+/* This is the grid */
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1vw;
+  padding: 1vw;
+}
+
+.grid > div {
+  width: calc(93vw / 6);
+  height: calc(93vw / 6);
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
